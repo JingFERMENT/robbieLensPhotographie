@@ -2,10 +2,11 @@ body {
   /* use "body" to apply a defaut style */
   font-family: "Manrope", sans-serif;
   font-size: 1em;
+  background-color: #1f2039;
 }
 
 a {
-  color: #000;
+  color: #242424;
   text-decoration: none;
 }
 
@@ -20,6 +21,44 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+h2 {
+  color: #f9f8ff;
+}
+
+li,
 p {
   font-size: 1.1em;
+  color: #f9f8ff;
 }
+
+.header, .footer {
+  background-color: #fff;
+}
+
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: #fff;
+  border-radius: 50px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cta:hover {
+    background: linear-gradient(#696484,#8788BA);
+    text-decoration: none;
+}
+
+.line-icone:hover {
+    opacity: 0.5;
+
+}
+
+.new_border {
+    border-bottom: 1px #8e86b5 solid;
+    border-right: 1px #8e86b5 solid;
+}
+
+
+
