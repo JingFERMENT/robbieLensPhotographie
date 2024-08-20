@@ -1,10 +1,8 @@
-/* réinitialiser les marges par défaut des navigateurs */
 * {
   margin: 0;
 }
 
 body {
-  /* use "body" to apply a defaut style */
   font-family: "Manrope", sans-serif;
   font-size: 1em;
   background-color: #1f2039;
@@ -28,7 +26,6 @@ h1 {
 
 h2 {
   color: #f9f8ff;
-  margin: 30px;
 }
 
 li,
@@ -69,12 +66,39 @@ a:hover {
   padding: 50px;
 }
 
+.new_border h2 {
+  margin-top: 30px;
+}
+
+.new_border ul {
+  margin-top: 30px;
+}
+
 section {
   padding: 80px;
 }
 
-main {
+.a-propos-main {
   width: 50%;
   margin: auto;
-
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  padding-left: 15px;
+}
+
+.last-project {
+  background-color: #fff;
+}
+
+.last-project h2 {
+ color: #000;
+ text-align: center;
+}
+
