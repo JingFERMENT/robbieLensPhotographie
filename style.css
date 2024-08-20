@@ -1,3 +1,8 @@
+/* réinitialiser les marges par défaut des navigateurs */
+* {
+  margin: 0;
+}
+
 body {
   /* use "body" to apply a defaut style */
   font-family: "Manrope", sans-serif;
@@ -23,6 +28,7 @@ h1 {
 
 h2 {
   color: #f9f8ff;
+  margin: 30px;
 }
 
 li,
@@ -31,7 +37,8 @@ p {
   color: #f9f8ff;
 }
 
-.header, .footer {
+header, footer {
+  padding: 20px 50px;
   background-color: #fff;
 }
 
@@ -58,6 +65,13 @@ a:hover {
 .new_border {
     border-bottom: 1px #8e86b5 solid;
     border-right: 1px #8e86b5 solid;
+    padding: 50px;
+}
+
+main {
+  width: 100vh;
+  margin: auto;
+  padding: 80px;
 }
 
 
