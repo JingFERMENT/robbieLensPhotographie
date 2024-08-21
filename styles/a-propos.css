@@ -1,0 +1,26 @@
+
+
+.new_border {
+    border-bottom: 1px #8e86b5 solid;
+    border-right: 1px #8e86b5 solid;
+    padding: 50px;
+    margin-bottom: 80px;
+  }
+  
+  .new_border h2 {
+    margin-top: 30px;
+  }
+  
+  .new_border ul {
+    margin-top: 30px;
+  }
+  
+  .new_border + div {
+    text-align: center;
+  }
+  
+  
+  .a-propos-main {
+    width: 50%;
+    margin: auto;
+  }

@@ -1,0 +1,37 @@
+.last-project {
+  background-color: #fff;
+  padding: 80px;
+}
+
+.last-project h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.last-project div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  gap: 15px;
+}
+
+.introduction {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  align-items: flex-start;
+}
+
+.introduction h1 {
+  margin-bottom: 15px;
+}
+
+.introduction p {
+  margin-bottom: 30px;
+}
+
+.introduction div {
+  padding-right: 80px;
+}
+
