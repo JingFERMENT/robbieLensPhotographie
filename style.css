@@ -102,3 +102,21 @@ nav a {
  text-align: center;
 }
 
+.introduction {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction-content {
+  width: 40%; 
+  margin: 0;
+}
+
+.galery-photos {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
