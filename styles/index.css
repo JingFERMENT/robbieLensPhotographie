@@ -35,3 +35,44 @@
   padding-right: 80px;
 }
 
+#form-contact h2 {
+  text-align: center;
+  color: #a5b4fc;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  color: #fff;
+}
+
+label {
+ margin-bottom: 10px;
+}
+
+input, textarea {
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+.form-contact-detail {
+  display: flex;
+  gap: 20px;
+}
+
+.form-column {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}

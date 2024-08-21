@@ -4,6 +4,8 @@
     border-bottom: 1px #8e86b5 solid;
     border-right: 1px #8e86b5 solid;
     padding: 50px;
+    width: 50%;
+    margin: auto;
     margin-bottom: 80px;
   }
   
@@ -21,6 +23,31 @@
   
   
   .a-propos-main {
-    width: 50%;
     margin: auto;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    color:white;
+  }
+
+  h2 {
+    margin-bottom: 80px;
+  }
+
+  td, th {
+    border: 1px solid #a5b4fc;
+    padding: 15px;
+    color: white;
+  }
+
+  td {
+    padding: 80px;
+  }
+
+  h1, h2 {
+    text-align: center;
   }
