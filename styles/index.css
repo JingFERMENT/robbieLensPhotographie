@@ -18,7 +18,7 @@
 
 .introduction {
   display: flex;
-  width: 60%;
+  max-width: 1000px;
   margin: auto;
   align-items: flex-start;
 }
@@ -75,4 +75,40 @@ input[type='submit'] {
   width: 200px;
   margin: auto;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 996px) { 
+.introduction {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction div {
+  padding-right: 0;
+  text-align: center;
+}
+
+.introduction img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.last-project {
+  padding: 10px;
+}
+
+.last-project div {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.last-project h2 {
+  margin-bottom: 20px;
+}
+
+.form-contact-detail {
+ flex-direction: column;
+  gap: 0px;
+}
 }
