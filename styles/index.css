@@ -31,7 +31,7 @@
   margin-bottom: 30px;
 }
 
-.introduction div {
+.introduction-text {
   padding-right: 80px;
 }
 
@@ -77,6 +77,22 @@ input[type='submit'] {
   margin-top: 30px;
 }
 
+.image-container {
+  position: relative; /* Pour positionner les éléments enfants par rapport à lui */
+  padding: 20px; /* Espace autour de l'image */
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left:90%;
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid #a5b4fc;
+  border-right: 1px solid #a5b4fc;
+}
+
 @media screen and (max-width: 996px) { 
 .introduction {
   flex-direction: column-reverse;
@@ -84,7 +100,7 @@ input[type='submit'] {
   align-items: center;
 }
 
-.introduction div {
+.introduction-text {
   padding-right: 0;
   text-align: center;
 }
